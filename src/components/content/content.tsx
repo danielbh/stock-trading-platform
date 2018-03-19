@@ -1,11 +1,11 @@
 import * as React from 'react';
-import './index.scss';
+import './index.css';
 
 export class Content extends React.Component {
   render() {
     return (
-      <section className="column column-50 column-offset-25">
-      Hello
+      <section id="content" className="column column-55">
+      <h1>$300.28</h1>
       </section>
     );
   }
